@@ -9,7 +9,7 @@ import SwiftUI
 
 struct DetailReportTripView: View {
     var body: some View {
-        Text(", World!")
+        Text(", World lfjhkdjfdvbbhdbchdbcjdhbdsjhv!")
     }
 }
 
