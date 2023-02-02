@@ -9,7 +9,27 @@ import SwiftUI
 
 struct DetailReportTripView: View {
     var body: some View {
-        Text(", World!")
+        NavigationView {
+            VStack{
+                Form{
+                    Section("Дата документа") {
+                        Text("25.04.22")
+                    }
+                    Section("Компания (выдавшая чек)") {
+                        Text("Компания (выдавшая чек)")
+                    }
+                    Section("Описание") {
+                        Text("Описание")
+                    }
+                    Section("Сумма чека") {
+                        Text("Сумма")
+                    }
+                }
+                
+            }
+            .navigationBarTitle("Описание затрат", displayMode: .inline)
+        }
+        
     }
 }
 

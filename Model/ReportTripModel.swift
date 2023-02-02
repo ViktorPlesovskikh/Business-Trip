@@ -11,7 +11,7 @@ import Foundation
 struct ExpenseItem: Codable, Identifiable {
     var id = UUID()
     let nameExpense: String
-    let typeExpense: String
+    let typeExpense: String 
     let countExpense: Int
 }
 
